@@ -1,0 +1,64 @@
+{
+	"info": {
+		"_postman_id": "a8409d17-9ed9-40c6-a027-d326e9d42233",
+		"name": "Minimal API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "1537194"
+	},
+	"item": [
+		{
+			"name": "Minimal/accounts",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"email\":\"ever@email.com\",\r\n  \"userName\": \"Ever\",\r\n  \"cityId\": \"3fa85f64-5717-4562-b3fc-2c963f66afa6\",\r\n  \"mobile\": \"3117423946\",\r\n  \"accountType\": 1\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "https://localhost:7297/api/accounts"
+			},
+			"response": []
+		},
+		{
+			"name": "Minimal/accounts",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "https://localhost:7297/api/accounts/ever@email.com"
+			},
+			"response": []
+		},
+		{
+			"name": "Minimal/accounts",
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"email\":\"ever@email.com\",\r\n  \"userName\": \"Ever\",\r\n  \"cityId\": \"e0b82dc0-035a-40d6-a162-1ed521da1562\",\r\n  \"mobile\": \"3117427573\",\r\n  \"accountType\": 2\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "https://localhost:7297/api/accounts/a478ec99-9ca6-4f0a-9aef-9cd107463cd7"
+			},
+			"response": []
+		},
+		{
+			"name": "Minimal/accounts",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": "https://localhost:7297/api/accounts/a478ec99-9ca6-4f0a-9aef-9cd107463cd7"
+			},
+			"response": []
+		}
+	]
+}
