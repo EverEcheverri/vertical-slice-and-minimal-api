@@ -7,6 +7,8 @@ using VerticalSliceMinimalApi.Application.Features.Account.Delete;
 using VerticalSliceMinimalApi.Application.Features.Account.Get;
 using VerticalSliceMinimalApi.Application.Features.Account.Update;
 
+namespace VerticalSliceMinimalApi.Test.API.Endpoints;
+
 public class EndpointMappingTests
 {
     private readonly ISender _mockSender;

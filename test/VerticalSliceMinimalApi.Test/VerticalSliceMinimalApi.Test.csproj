@@ -30,11 +30,12 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Using Include="Xunit" />
+    <ProjectReference Include="..\VerticalSliceMinimalApi.Test.Data\VerticalSliceMinimalApi.Test.Data.csproj" />
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\VerticalSliceMinimalApi.Test.Data\VerticalSliceMinimalApi.Test.Data.csproj" />
-  </ItemGroup>
+    <Using Include="Xunit" />
+  </ItemGroup>    
+  
 
 </Project>
